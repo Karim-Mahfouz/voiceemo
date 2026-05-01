@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+
+# Environment / secrets
+.env
+.env.local
+*.pem
+secrets.yaml
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Datasets — big, public, do not commit
+data/RAVDESS/
+data/CREMA-D/
+data/*.zip
+data/*.tar*
+*.wav
+
+# Trained model checkpoints — too big for git
+results/**/best_model.pt
+results/**/last_model.pt
+results/**/*.pth
+results/**/*.bin
+results/seeds/
+*.pt
+*.ckpt
+*.h5
+
+# Training run artefacts (logs, sentinels)
+logs/
+.sentinels/
+
+# Intermediate debugging
+*.tmp
+*.bak
+*.orig
+
+# HF cache
+.hf_cache/
+
+# Notebook outputs (committed selectively, not by default)
+notebooks/**/.ipynb_checkpoints/
